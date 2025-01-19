@@ -1,0 +1,1 @@
+This example demonstrates a potential issue with Kotlin's `map` function when dealing with nullable lists.  The `map` function on a null list will return null, which may lead to unexpected `NullPointerException` errors if not handled properly in subsequent code.  The solution shows how to safely handle this situation.
